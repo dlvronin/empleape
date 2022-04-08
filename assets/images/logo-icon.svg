@@ -1,10 +1,96 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
-    <title>Page 1</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <path d="M28.722,26.178 L15.927,30.821 L15.927,13.074 L28.722,8.45 L28.722,26.178 L28.722,26.178 Z M15.394,12.133 L3.068,7.66 L15.394,3.136 L27.708,7.664 L15.394,12.133 L15.394,12.133 Z M14.861,30.821 L2.066,26.178 L2.066,8.431 L14.861,13.074 L14.861,30.821 L14.861,30.821 Z M29.265,7.1 L15.394,2 L1,7.283 L1,26.926 L15.394,32.148 L29.788,26.926 L29.788,7.291 L29.264,7.099 L29.265,7.1 L29.265,7.1 Z" stroke="#FFFFFF" stroke-width="2" sketch:type="MSShapeGroup"></path>
+<svg
+   width="30.788"
+   height="32.277115"
+   viewBox="0 0 30.788 32.277115"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="logo-icon.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="5.3968885"
+     inkscape:cx="20.845344"
+     inkscape:cy="38.355434"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8471">
+    <sodipodi:guide
+       position="74.58001,13.655274"
+       orientation="1,0"
+       id="guide6836" />
+    <sodipodi:guide
+       position="40.949521,17.175821"
+       orientation="0,-1"
+       id="guide7028" />
+  </sodipodi:namedview>
+  <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">Page 1</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     sketch:type="MSPage"
+     transform="translate(0,-0.93466134)"
+     style="fill:#ffffff">
+    <g
+       id="g8471"
+       transform="matrix(1.0957679,0,0,1.2435821,-65.659417,-5.222169)">
+      <path
+         style="fill:none;stroke:#faffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 74.58001,29.009119 C 67.17134,25.841145 62.296385,19.309546 61.457202,15.608374 c -0.839183,-3.701172 2.272579,-7.3885118 5.755241,-8.2363756 3.482662,-0.8478638 7.367567,4.3320746 7.367567,4.3320746 0,0 4.173878,-5.5088649 8.234123,-4.3148687 4.060245,1.1939962 4.516824,4.6954067 3.730376,7.5608677 -0.786448,2.865461 -4.801716,10.188169 -11.964499,14.059047 z"
+         id="path349"
+         sodipodi:nodetypes="czzczzc" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 67.9095,10.291905 c 0,0 1.125508,-0.16872 2.654808,1.141173 1.529299,1.309892 1.884845,2.47202 1.884845,2.47202"
+         id="path7595"
+         sodipodi:nodetypes="czc" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 80.202547,9.8538489 c 0,0 1.125508,-0.16872 2.654808,1.1411731 1.529299,1.309892 1.884845,2.47202 1.884845,2.47202"
+         id="path7595-1"
+         sodipodi:nodetypes="czc" />
     </g>
+  </g>
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Page 1</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
