@@ -19,7 +19,7 @@ p {
 }
 
 a {
-  color: #3aa7aa;
+  color: #903aaa;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -28,7 +28,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #339597;
+  color: #903aaa;
 }
 
 a:active {
@@ -66,15 +66,15 @@ a:focus {
 }
 
 .btn-primary {
-  background: #40babd;
-  border: 1px solid #40babd;
+  background: #903aaa;
+  border: 1px solid #903aaa;
   color: #fff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.hover {
-  background: #3aa7aa;
+  background: #903aaa;
   color: #fff;
-  border: 1px solid #3aa7aa;
+  border: 1px solid #903aaa;
 }
 
 .btn-inverse {
@@ -140,7 +140,7 @@ a:focus {
 }
 
 .carousel-indicators li.active {
-  background-color: #40babd;
+  background-color: #903aaa;
   width: 11px;
   height: 11px;
   margin: 0;
@@ -176,7 +176,7 @@ a:focus {
 }
 
 .header.header-scrolled .logo .logo-icon-wrapper {
-  background: #40babd;
+  background: #903aaa;
   width: 40px;
   height: 40px;
   -webkit-border-radius: 50%;
@@ -206,7 +206,7 @@ a:focus {
 
 .header.header-scrolled .main-nav .nav .nav-link.active {
   color: #494d55;
-  border-bottom: 4px solid #40babd;
+  border-bottom: 4px solid #903aaa;
 }
 
 .header a {
@@ -340,7 +340,7 @@ a:focus {
 }
 
 .footer a {
-  color: #40babd;
+  color: #903aaa;
 }
 
 .footer .fa-heart {
@@ -463,7 +463,7 @@ a:focus {
 }
 
 .about-section .items-wrapper .item-title {
-  color: #40babd;
+  color: #903aaa;
   font-size: 18px;
   font-weight: bold;
   margin: 0;
@@ -487,7 +487,7 @@ a:focus {
 }
 
 .testimonials {
-  background: #40babd;
+  background: #903aaa;
 }
 
 .testimonials-inner {
@@ -541,7 +541,7 @@ a:focus {
 
 /* ======= Testimonials Section ======= */
 .testimonials-section {
-  background: #40babd url("../images/map.png") no-repeat center center;
+  background: #a440bd url("../images/map.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -693,7 +693,7 @@ a:focus {
 }
 
 .feature-nav .nav-link.active {
-  color: #40babd;
+  color: #903aaa;
   background: none;
   font-weight: bold;
 }
@@ -739,7 +739,7 @@ a:focus {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #40babd;
+  background: #903aaa;
   height: 100%;
 }
 
@@ -849,7 +849,7 @@ a:focus {
 .team-section .member-name {
   font-size: 18px;
   font-weight: 700;
-  color: #40babd;
+  color: #903aaa;
 }
 
 .team-section .member-title {
@@ -876,7 +876,7 @@ a:focus {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #40babd;
+  background: #903aaa;
   padding-top: 3px;
   color: #fff;
 }
@@ -977,7 +977,7 @@ a:focus {
     z-index: 40;
   }
   .header.header-scrolled .main-nav .nav .nav-link.active {
-    color: #40babd;
+    color: #903aaa;
     border: none;
   }
   .main-nav .navbar-collapse .nav-item {
