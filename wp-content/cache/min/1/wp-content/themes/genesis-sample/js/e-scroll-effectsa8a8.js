@@ -1,0 +1,2 @@
+jQuery(document).ready(function($){var scrollTop=$(window).scrollTop();$(window).scroll(function(e){var scrollTop=$(window).scrollTop();var marginBottom=-scrollTop*0.8+'px';var opacity=1-scrollTop/200;var screenWidth=100-scrollTop/7+'%';$('.e-title-block').css('opacity',opacity);if(opacity>0){$('.e-title-block').css('margin-bottom',marginBottom)}
+if(scrollTop>=0){$('.e-software__screen img').css('width',screenWidth)}})})

@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*Custom styles
+---------------------------------------------------*/
+/*
+├ìNDICE:
+
+   - IMPORTS
+   - FOOTER
+
+  */
+  /* IMPORTS
+================================================================================ */
+/* VARIABLES
+================================================================================ */
+/*Colores*/
+/*Medias para max-width*/
+ /* IMPORTS
+================================================================================ */
+/* VARIABLES
+================================================================================ */
+/*Colores*/
+/*Medias para max-width*/
+/* COLORES
+================================================================================ */
+/*aplicativos de color en elementos*/
+.e-color--general,
+.e-color--software {
+  color: #FF0066 !important; }
+
+.e-color--outsourcing {
+  color: #4CD964 !important; }
+
+.e-color--consulting {
+  color: #FFCC00 !important; }
+
+/*aplicativos de background en elementos*/
+.e-bgcolor--general,
+.e-bgcolor--software {
+  background-color: rgba(255, 0, 102, 0.1); }
+
+.e-bgcolor--outsourcing {
+  background-color: rgba(76, 217, 100, 0.1); }
+
+.e-bgcolor--consulting {
+  background-color: rgba(255, 204, 0, 0.1); }
+
+.e-color--white {
+  color: #ffffff !important; }
+
+.e-bgcolor--black {
+  background-color: #000000 !important; }
+
+/* Para los encabezados con imagen, quitamos m├írgenes adicionales que descompensan la vista.
+No es la mejor manera, pero s├¡ la m├ís r├ípida ahora.*/
+.e-section.e-bgcolor--software figure.wp-block-image,
+.e-section.e-bgcolor--software .site-container .wp-block-columns,
+.e-section.e-bgcolor--outsourcing figure.wp-block-image,
+.e-section.e-bgcolor--outsourcing .site-container .wp-block-columns,
+.e-section.e-bgcolor--consulting figure.wp-block-image,
+.e-section.e-bgcolor--consulting .site-container .wp-block-columns {
+  margin-bottom: 0 !important; }
+
+/* FOOTER
+================================================================================ */
+.footer-widget-area {
+  /* ESTILOS PARA IGUALAR VISUALMENTE LA ALTURA DE LOS T├ìTULOS */ }
+  .footer-widget-area .widget-title {
+    font-size: 1.125rem;
+    color: #1252A1;
+    font-weight: bold; }
+  .footer-widget-area .widget_nav_menu {
+    margin-bottom: 0.25rem; }
+  .footer-widget-area .widget_nav_menu li,
+  .footer-widget-area .widget_recent_entries li {
+    position: relative;
+    padding-left: 1rem; }
+    .footer-widget-area .widget_nav_menu li::before,
+    .footer-widget-area .widget_recent_entries li::before {
+      content: "/";
+      font-family: Circular;
+      font-weight: 800;
+      position: absolute;
+      margin-left: -1rem;
+      color: #1252A1; }
+    .footer-widget-area .widget_nav_menu li > a,
+    .footer-widget-area .widget_recent_entries li > a {
+      color: #333333;
+      text-decoration: none;
+      background-color: transparent;
+      outline: none !important; }
+      .footer-widget-area .widget_nav_menu li > a:hover,
+      .footer-widget-area .widget_recent_entries li > a:hover {
+        text-decoration: underline; }
+  .footer-widget-area .simple-social-icons svg[class^="social-"], .footer-widget-area .simple-social-icons svg[class*=" social-"] {
+    margin-top: -4px; }
+  @media (min-width: 960px) {
+    .footer-widget-area .widget-title {
+      margin-top: 78px; }
+    .footer-widget-area .widget_media_image {
+      margin-bottom: -40px; } }
+  .footer-widget-area .e-contact-links {
+    margin-top: 1rem; }
+    .footer-widget-area .e-contact-links i {
+      margin-right: 0.5rem;
+      font-weight: 600; }
+    .footer-widget-area .e-contact-links a {
+      color: #333333;
+      font-weight: 600; }
+  .footer-widget-area .wpml-ls-legacy-dropdown a {
+    padding: 10px; }
+  .footer-widget-area .wpml-ls-legacy-dropdown a.wpml-ls-item-toggle {
+    border-radius: 5px;
+    outline: none !important; }
+  .footer-widget-area .wpml-ls-legacy-dropdown .wpml-ls-sub-menu {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05), 0px 20px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    border-top: none; }
+    .footer-widget-area .wpml-ls-legacy-dropdown .wpml-ls-sub-menu a {
+      border: none;
+      outline: none; }
+    .footer-widget-area .wpml-ls-legacy-dropdown .wpml-ls-sub-menu li:first-child a {
+      border-radius: 5px 5px 0 0; }
+    .footer-widget-area .wpml-ls-legacy-dropdown .wpml-ls-sub-menu li:last-child a {
+      border-radius: 0 0 5px 5px; }
+
+/*# sourceMappingURL=endaliacom-footer.css.map */

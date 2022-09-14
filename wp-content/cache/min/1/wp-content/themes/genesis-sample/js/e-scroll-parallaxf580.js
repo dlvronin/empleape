@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){var scrollTop=$(window).scrollTop();$('body').addClass('e-bg--parallax');$(window).scroll(function(e){var scrollTop=$(window).scrollTop();var backgroundPosition='center -'+scrollTop/10+'px';$('.e-bg--parallax').css('background-position',backgroundPosition);$('.e-form--dark').css('background-position',backgroundPosition)})})

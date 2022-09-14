@@ -1,0 +1,513 @@
+@charset "UTF-8";
+/**===========================================================
+* ESTILOS FORMULARIOS NINJAFORM
+* ===========================================================
+*/
+/**
+* INDICE:
+* - Exclusi├│n de bg para blog 
+* - Estilos
+* - Estructura
+* - Boton
+* - Checks
+* - Alertas
+* - Adaptacion para forms de Hubspot
+*/
+/* VARIABLES
+================================================================================ */
+/*Colores*/
+/*Medias para max-width*/
+/**
+* Exclusi├│n de bg para blog 
+* ===========================================================
+*/
+.e-bg--parallax, .e-form--dark {
+  background-repeat: repeat-y;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+  background-position: center 0; }
+
+@media only screen and (max-width: 768px) {
+  .e-bg--parallax, .e-form--dark {
+    background-size: 760px 1254px !important;
+    -webkit-background-size: 760px 1254px !important; } }
+.e-bg--parallax-light {
+  background-image: url(../images/bg-light.svg);
+  background-repeat: repeat-y;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+  background-position: center 0; }
+
+.e-bg--parallax-dark, .e-form--dark {
+  background-image: url(../images/bg-dark.svg);
+  background-repeat: repeat-y;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+  background-position: center 0; }
+
+/**
+* Estilos
+* ===========================================================
+*/
+/*section sobre fondo oscuro*/
+.e-form--dark {
+  background-color: #1252A1; }
+  .e-form--dark .e-title--xl,
+  .e-form--dark .e-title--lg,
+  .e-form--dark .e-title--md,
+  .e-form--dark .e-title--sm,
+  .e-form--dark .e-title--xs {
+    color: #ffffff; }
+    .e-form--dark .e-title--xl ~ .e-container__subtitle,
+    .e-form--dark .e-title--lg ~ .e-container__subtitle,
+    .e-form--dark .e-title--md ~ .e-container__subtitle,
+    .e-form--dark .e-title--sm ~ .e-container__subtitle,
+    .e-form--dark .e-title--xs ~ .e-container__subtitle {
+      color: rgba(255, 255, 255, 0.8) !important;
+      margin-bottom: 1em; }
+    .e-form--dark .e-title--xl ~ p,
+    .e-form--dark .e-title--lg ~ p,
+    .e-form--dark .e-title--md ~ p,
+    .e-form--dark .e-title--sm ~ p,
+    .e-form--dark .e-title--xs ~ p {
+      color: rgba(255, 255, 255, 0.8) !important; }
+
+/*section sobre fondo claro*/
+.e-form--light .nf-form-content label,
+.e-form--light .nf-field-label label,
+.e-form--light .ninja-forms-req-symbol {
+  color: #1252A1 !important; }
+
+.e-form--light .nf-form-fields-required {
+  display: none; }
+
+.e-form--light .nf-form-content select.ninja-forms-field,
+.e-form--light .list-select-wrap div:after,
+.e-form--light .nf-form-content .list-select-wrap .nf-field-element > div,
+.e-form--light .nf-form-content input:not([type="button"]),
+.e-form--light .nf-form-content textarea {
+  color: #333333 !important; }
+
+.e-form--onecolumn .checkbox-container.label-right .field-wrap > div {
+  width: 100% !important; }
+
+.e-form--light .checkbox-wrap .nf-field-element label:after,
+.e-form--light .checkbox-wrap .nf-field-label label:after,
+.e-form--light .listcheckbox-wrap .nf-field-element label:after,
+.e-form--light .listcheckbox-wrap .nf-field-label label:after {
+  background: rgba(51, 51, 51, 0.1) !important;
+  border-color: #ccc !important;
+  border-radius: 5px; }
+
+/*Colores de fuente en formulario*/
+.e-form--light .nf-form-content input,
+.e-form--light .nf-form-content textarea,
+.e-form--light .nf-form-content .list-select-wrap .nf-field-element > div {
+  background: rgba(204, 204, 204, 0.4) !important;
+  border: 1px solid #ccc !important; }
+
+/**
+* Estructura
+* ===========================================================
+*/
+/*Altura max de input y select*/
+.nf-field-element input,
+.nf-field-element select {
+  max-height: 52px; }
+
+/*Margin entre inputs*/
+.nf-form-content .label-above .nf-field-label,
+.nf-form-content .label-below .nf-field-label,
+.nf-form-content .label-hidden .nf-field-label {
+  margin-bottom: 5px !important; }
+
+/*Estilos de formulario*/
+.nf-form-content input,
+.nf-form-content textarea,
+.nf-form-content .list-select-wrap .nf-field-element > div {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+  border-radius: 25px !important;
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.nf-form-content .listselect-wrap .nf-field-element div,
+.nf-form-content .ninja-forms-field {
+  padding-left: 1rem !important; }
+
+/*Colores de fuente en formulario*/
+.nf-form-content select.ninja-forms-field,
+.list-select-wrap div:after,
+.nf-form-content .list-select-wrap .nf-field-element > div,
+.nf-form-content input:not([type="button"]),
+.nf-form-content textarea {
+  color: rgba(255, 255, 255, 0.7) !important; }
+
+.nf-form-content select.ninja-forms-field option {
+  color: #1252A1; }
+
+/*label*/
+.nf-form-content label,
+.nf-field-label label {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  padding-left: 1em !important;
+  color: #ffffff; }
+
+.label-right .nf-field-label {
+  padding-left: 0 !important; }
+
+/*Textarea*/
+.nf-form-content textarea.ninja-forms-field {
+  height: 150px !important;
+  resize: none; }
+
+/*scroll textarea*/
+textarea::-webkit-scrollbar {
+  width: 1em; }
+
+textarea::-webkit-scrollbar-track {
+  background-color: #204f96;
+  border-right: 1px solid #3969a6 !important;
+  border-top: 1px solid #3969a6 !important;
+  border-bottom: 1px solid #3969a6 !important;
+  border-radius: 0 16px 16px 0; }
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #3969a6;
+  border-radius: 25px; }
+
+/*reponsive*/
+@media only screen and (max-width: 767px) {
+  .nf-form-content nf-fields-wrap {
+    display: flex;
+    flex-direction: column; }
+
+  .nf-field-container {
+    width: 100% !important; }
+
+  .nf-form-cont .one-half {
+    margin-left: 0 !important; } }
+@media only screen and (max-width: 800px) {
+  #ninja_forms_required_items,
+  .nf-field-container {
+    margin-bottom: 25px !important; } }
+/**
+* Submit boton
+* ===========================================================
+*/
+/*boton*/
+.nf-form-cont input[type="button"].e-btn-general--rounded,
+.nf-form-cont input[type="button"].e-btn-software--rounded,
+.nf-form-cont input[type="button"].e-btn-outsourcing--rounded,
+.nf-form-cont input[type="button"].e-btn-consulting--rounded {
+  font-size: 1.1666rem;
+  font-family: Circular;
+  border-radius: 10rem !important;
+  font-weight: 600;
+  color: #ffffff !important;
+  padding: 15px 30px !important;
+  line-height: 1;
+  border: 0 !important; }
+  @media (max-width: 992px) {
+    .nf-form-cont input[type="button"].e-btn-general--rounded,
+    .nf-form-cont input[type="button"].e-btn-software--rounded,
+    .nf-form-cont input[type="button"].e-btn-outsourcing--rounded,
+    .nf-form-cont input[type="button"].e-btn-consulting--rounded {
+      font-size: 1.3125rem; } }
+  @media (max-width: 767px) {
+    .nf-form-cont input[type="button"].e-btn-general--rounded,
+    .nf-form-cont input[type="button"].e-btn-software--rounded,
+    .nf-form-cont input[type="button"].e-btn-outsourcing--rounded,
+    .nf-form-cont input[type="button"].e-btn-consulting--rounded {
+      font-size: 1rem; } }
+
+/*boton color*/
+input[type="button"].e-btn-outsourcing--rounded {
+  background-color: #4CD964 !important; }
+
+input[type="button"].e-btn-software--rounded,
+input[type="button"].e-btn-general--rounded {
+  background-color: #FF0066 !important; }
+
+input[type="button"].e-btn-consulting--rounded {
+  background-color: #FFCC00 !important; }
+
+/*Submit container*/
+.submit-wrap {
+  justify-content: center; }
+
+.submit-wrap .nf-field-element {
+  display: flex;
+  justify-content: center; }
+
+/*Submit responsive*/
+@media only screen and (max-width: 767px) {
+  input[type="button"].e-btn-general--rounded,
+  input[type="button"].e-btn-consulting--rounded,
+  input[type="button"].e-btn-software--rounded,
+  input[type="button"].e-btn-outsourcing--rounded {
+    width: 100%; }
+
+  .submit-wrap .nf-field-label {
+    display: none !important; } }
+/**
+* Checks
+* ===========================================================
+*/
+.checkbox-wrap .nf-field-label label.nf-checked-label:before {
+  color: #1252A1 !important;
+  left: -27px !important;
+  font-size: 16px !important; }
+
+.checkbox-wrap .nf-field-element label.nf-checked-label:after,
+.checkbox-wrap .nf-field-label label.nf-checked-label:after,
+.listcheckbox-wrap .nf-field-element label.nf-checked-label:after,
+.listcheckbox-wrap .nf-field-label label.nf-checked-label:after {
+  border-color: #ffffff !important;
+  border-radius: 5px; }
+
+.checkbox-wrap .nf-field-element label:after,
+.checkbox-wrap .nf-field-label label:after,
+.listcheckbox-wrap .nf-field-element label:after,
+.listcheckbox-wrap .nf-field-label label:after {
+  border-radius: 5px; }
+
+.checkbox-container.label-right .field-wrap > div {
+  margin: 0 auto !important;
+  min-width: 60% !important;
+  width: auto !important; }
+
+@media only screen and (max-width: 767px) {
+  .checkbox-container.label-right .field-wrap > div {
+    margin: 1rem 1rem 0 !important; } }
+/**
+* Alertas
+* ===========================================================
+*/
+/*Ocultar l├¡mite de texto*/
+.nf-input-limit {
+  display: none; }
+
+/*error*/
+.nf-after-field .nf-error-msg {
+  padding: 0 1rem; }
+
+.nf-error .ninja-forms-field {
+  border-color: rgba(255, 0, 102, 0.5) !important; }
+
+.nf-error.field-wrap .nf-field-element:after {
+  border-radius: 25px;
+  background: #FF0066 !important; }
+
+.nf-error-msg {
+  color: #FF0066 !important;
+  font-size: 16px; }
+
+.ninja-forms-req-symbol {
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.nf-form-fields-required {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  margin-bottom: 1rem; }
+
+/*Pass*/
+.nf-pass.field-wrap .nf-field-element:after {
+  color: #4CD964 !important; }
+
+.field-wrap.nf-pass .ninja-forms-field {
+  border-color: #4CD964 !important; }
+
+/**
+* Adaptacion para forms de Hubspot
+* ===========================================================
+*/
+/* ESTILOS GENERALES */
+.hbspt-form fieldset {
+  max-width: none !important; }
+
+.hs-fieldtype-intl-phone.hs-input {
+  background: none !important;
+  border: none !important; }
+
+ul.no-list.hs-error-msgs {
+  margin-bottom: 0; }
+
+.hs-button.primary {
+  padding: 0.75em 1.25em !important;
+  font-size: 1.1666rem;
+  font-family: Circular;
+  border-radius: 10rem !important;
+  font-weight: 600; }
+
+.hs-button.primary {
+  background-color: #FF0066 !important; }
+
+.hs-button.primary:hover {
+  background-color: #FF0066 !important;
+  box-shadow: inset 0 0 200px rgba(230, 230, 230, 0.25) !important; }
+
+/* Ajustes del comportamiento del boton de envio */
+.hs-button.large {
+  width: 50%; }
+
+@media (max-width: 767px) {
+  .hs-button.large {
+    width: 100%; } }
+.modal__content .hs-button.large,
+.wp-block-column .hs-button.large {
+  width: 100% !important; }
+
+.hs-form-field {
+  margin-bottom: 20px; }
+
+.hs-form-field label {
+  font-family: Roboto, sans-serif;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  padding-left: 1em !important;
+  line-height: 20px; }
+
+.hs-input {
+  border-radius: 27.5px;
+  height: 55px;
+  outline: none; }
+
+textarea.hs-input {
+  height: auto !important; }
+
+.hs-error-msgs li {
+  list-style: none !important; }
+
+.inputs-list {
+  padding-left: 0 !important; }
+
+.legal-consent-container .hs-form-booleancheckbox-display input {
+  height: 20px; }
+
+.hs-form-booleancheckbox {
+  list-style: none !important; }
+
+.hs-richtext p,
+.legal-consent-container .hs-form-booleancheckbox-display p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1rem;
+  text-align: justify; }
+
+.hs-richtext p {
+  padding-left: 1rem; }
+
+.hbspt-form a {
+  font-size: 15px; }
+
+.inputs-list {
+  margin-bottom: 0 !important; }
+
+/* ESTILOS DARK */
+.e-form--dark .hs-form-field label {
+  color: #ffffff; }
+
+.e-form--dark .hs-input:not(.hs-fieldtype-intl-phone) {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.4) !important; }
+
+.e-form--dark .hs-input {
+  color: rgba(255, 255, 255, 0.7) !important; }
+
+.e-form--dark select.hs-input > option {
+  color: #333333; }
+
+.e-form--dark .hs-error-msgs li label {
+  color: #c1155a !important; }
+
+.e-form--dark .hs-richtext p,
+.e-form--dark .legal-consent-container .hs-form-booleancheckbox-display p {
+  color: #ffffff; }
+
+.e-form--dark
+.hbspt-form a:hover {
+  color: #ffffff; }
+
+.e-form--dark ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.3);
+  opacity: 1;
+  /* Firefox */ }
+
+/* ESTILOS LIGHT */
+.e-form--light .hs-input:not(.hs-fieldtype-intl-phone) {
+  background: rgba(204, 204, 204, 0.4) !important;
+  border: 1px solid #ccc !important; }
+
+.e-form--light select.hs-input > option {
+  background: #ffffff; }
+
+.e-form--light .hs-form-field label {
+  color: #1252A1; }
+
+.e-form--light .hs-error-msgs li label {
+  color: #FF0066 !important; }
+
+.e-form--light .hs-richtext p,
+.e-form--light .legal-consent-container .hs-form-booleancheckbox-display p {
+  color: #333333; }
+
+.e-form--light ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  /* Firefox */ }
+
+/* ESTILOS ESPEC├ìFICOS NUEVO MODAL CSS */
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(77, 77, 77, 0.7);
+  transition: all .4s; }
+
+.modal:target {
+  visibility: visible;
+  opacity: 1; }
+
+.modal__content {
+  border-radius: 1rem;
+  position: relative;
+  width: 500px;
+  max-width: 90%;
+  background: #fff;
+  padding: 2em;
+  max-height: calc(100% - 3rem);
+  overflow-y: auto;
+  box-shadow: 0px 10px 25px 4px rgba(2, 2, 2, 0.2);
+  background-color: white; }
+
+.modal__footer {
+  text-align: right; }
+  .modal__footer a {
+    color: #585858; }
+  .modal__footer i {
+    color: #d02d2c; }
+
+.modal__close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: #585858;
+  text-decoration: none !important;
+  font-size: 24px;
+  outline: none; }
+
+/*# sourceMappingURL=endaliacom-ninjaforms.css.map */
